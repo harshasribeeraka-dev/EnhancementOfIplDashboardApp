@@ -1,0 +1,54 @@
+.latest-match-container {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.latest-match-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.latest-match-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-info {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.match-detail {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.competing-team-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.match-status {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Match status colors */
+.match-status.won {
+  color: #18ed66;
+}
+
+.match-status.lost {
+  color: #e31a1a;
+}
